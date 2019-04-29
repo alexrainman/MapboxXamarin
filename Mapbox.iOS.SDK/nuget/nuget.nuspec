@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Mapbox.iOS.SDK</id>
+        <version>4.10.0</version>
+        <title>Mapbox.iOS.SDK (C# Bindings)</title>
+        <authors>Alex Rainman</authors>
+        <owners>Alex Rainman</owners>
+        <licenseUrl>https://github.com/alexrainman/MapboxXamarin/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/alexrainman/MapboxXamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Mapbox.iOS.SDK (C# Bindings)</description>
+        <summary>Mapbox.iOS.SDK (C# Bindings)</summary>
+        <releaseNotes></releaseNotes>
+        <tags>Mapbox iOS SDK xamarin binding java c#</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="MapboxBindings.dll" target="lib/Xamarin.iOS10/MapboxBindings.dll" />
+    </files>
+</package>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Mapbox.Sdk.Geojson</id>
+        <version>4.3.0</version>
+        <title>Mapbox.Sdk.Geojson (C# Bindings)</title>
+        <authors>Alex Rainman</authors>
+        <owners>Alex Rainman</owners>
+        <licenseUrl>https://github.com/alexrainman/MapboxXamarin/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/alexrainman/MapboxXamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Mapbox.Sdk.Geojson (C# Bindings)</description>
+        <summary>Mapbox.Sdk.Geojson (C# Bindings)</summary>
+        <releaseNotes></releaseNotes>
+        <tags>Mapbox Sdk Geojson xamarin binding java c#</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid10">
+                <dependency id="GoogleGson" version="2.8.5"/>
+	    </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Mapbox.Sdk.Geojson.dll" target="lib/MonoAndroid/Mapbox.Sdk.Geojson.dll" />
+    </files>
+</package>

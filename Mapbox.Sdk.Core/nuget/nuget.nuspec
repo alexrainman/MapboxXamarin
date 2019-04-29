@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Mapbox.Sdk.Core</id>
+        <version>4.3.0</version>
+        <title>Mapbox.Sdk.Core (C# Bindings)</title>
+        <authors>Alex Rainman</authors>
+        <owners>Alex Rainman</owners>
+        <licenseUrl>https://github.com/alexrainman/MapboxXamarin/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/alexrainman/MapboxXamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Mapbox.Sdk.Core (C# Bindings)</description>
+        <summary>Mapbox.Sdk.Core (C# Bindings)</summary>
+        <releaseNotes></releaseNotes>
+        <tags>Mapbox Sdk Core xamarin binding java c#</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Mapbox.Sdk.Core.dll" target="lib/MonoAndroid/Mapbox.Sdk.Core.dll" />
+    </files>
+</package>

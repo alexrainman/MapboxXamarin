@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Mapbox.Android.Sdk</id>
+        <version>7.3.2</version>
+        <title>Mapbox.Android.Sdk (C# Bindings)</title>
+        <authors>Alex Rainman</authors>
+        <owners>Alex Rainman</owners>
+        <licenseUrl>https://github.com/alexrainman/MapboxXamarin/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/alexrainman/MapboxXamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Mapbox.Android.Sdk (C# Bindings)</description>
+        <summary>Mapbox.Android.Sdk (C# Bindings)</summary>
+        <releaseNotes></releaseNotes>
+        <tags>Mapbox Android Sdk xamarin binding java c#</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid10">
+                <dependency id="Com.Getkeepsafe.Relinker" version="1.3.1"/>
+	        <dependency id="Mapbox.Android.Core" version="1.2.0"/>
+                <dependency id="Mapbox.Android.Gestures" version="0.4.0"/>
+                <dependency id="Mapbox.Android.Telemetry" version="4.3.0"/>
+                <dependency id="Mapbox.Sdk.Core" version="4.3.0"/>
+                <dependency id="Mapbox.Sdk.Geojson" version="4.3.0"/>
+                <dependency id="Mapbox.Sdk.Turf" version="4.3.0"/>
+                <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1"/>
+	    </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Mapbox.Android.Sdk.dll" target="lib/MonoAndroid/Mapbox.Android.Sdk.dll" />
+    </files>
+</package>

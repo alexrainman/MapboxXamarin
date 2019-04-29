@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='PolygonOptions']/method[@name='addHole' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.mapbox.mapboxsdk.geometry.LatLng&gt;...']]" />
+    <attr
+        path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='BaseMarkerOptions']/method[@name='getThis' and count(parameter)=0]"
+        name="return">com.mapbox.mapboxsdk.annotations.BaseMarkerOptions</attr>
+    <attr
+        path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='BaseMarkerOptions']/method[@name='getMarker' and count(parameter)=0]"
+        name="return">com.mapbox.mapboxsdk.annotations.Marker</attr>
+    <attr
+        path="/api/package[@name='com.mapbox.mapboxsdk.annotations']/class[@name='MarkerOptions']/method[@name='getThis' and count(parameter)=0]"
+        name="managedName">ThisMarkerOptions</attr>
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.maps']/interface[@name='MapboxMap.OnGesturesManagerInteractionListener']" />
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.maps']/interface[@name='MapboxMap.OnMoveListener']" />
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.maps']/interface[@name='MapboxMap.OnRotateListener']" />
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.maps']/interface[@name='MapboxMap.OnScaleListener']" />
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.maps']/interface[@name='MapboxMap.OnShoveListener']" />
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.utils']/class[@name='FileUtils.CheckFileReadPermissionTask']" />
+    <remove-node
+        path="/api/package[@name='com.mapbox.mapboxsdk.utils']/class[@name='FileUtils.CheckFileWritePermissionTask']" />
+</metadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Mapbox.Sdk.Turf</id>
+        <version>4.3.0</version>
+        <title>Mapbox.Sdk.Turf (C# Bindings)</title>
+        <authors>Alex Rainman</authors>
+        <owners>Alex Rainman</owners>
+        <licenseUrl>https://github.com/alexrainman/MapboxXamarin/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/alexrainman/MapboxXamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Mapbox.Sdk.Turf (C# Bindings)</description>
+        <summary>Mapbox.Sdk.Turf (C# Bindings)</summary>
+        <releaseNotes></releaseNotes>
+        <tags>Mapbox Sdk Turf xamarin binding java c#</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Mapbox.Sdk.Turf.dll" target="lib/MonoAndroid/Mapbox.Sdk.Turf.dll" />
+    </files>
+</package>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Mapbox.Android.Telemetry</id>
+        <version>4.3.0</version>
+        <title>Mapbox.Android.Telemetry (C# Bindings)</title>
+        <authors>Alex Rainman</authors>
+        <owners>Alex Rainman</owners>
+        <licenseUrl>https://github.com/alexrainman/MapboxXamarin/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/alexrainman/MapboxXamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Mapbox.Android.Telemetry (C# Bindings)</description>
+        <summary>Mapbox.Android.Telemetry (C# Bindings)</summary>
+        <releaseNotes></releaseNotes>
+        <tags>Mapbox Android Telemetry xamarin binding java c#</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid10">
+                <dependency id="Square.OkHttp3" version="3.8.1"/>
+	    </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Mapbox.Android.Telemetry.dll" target="lib/MonoAndroid/Mapbox.Android.Telemetry.dll" />
+    </files>
+</package>

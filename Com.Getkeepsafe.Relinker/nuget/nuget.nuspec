@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Com.Getkeepsafe.Relinker</id>
+        <version>1.3.1</version>
+        <title>Com.Getkeepsafe.Relinker (C# Bindings)</title>
+        <authors>Alex Rainman</authors>
+        <owners>Alex Rainman</owners>
+        <licenseUrl>https://github.com/alexrainman/MapboxXamarin/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/alexrainman/MapboxXamarin</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Com.Getkeepsafe.Relinker (C# Bindings)</description>
+        <summary>Com.Getkeepsafe.Relinker (C# Bindings)</summary>
+        <releaseNotes></releaseNotes>
+        <tags>Getkeepsafe Relinker xamarin binding java c#</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Com.Getkeepsafe.Relinker.dll" target="lib/MonoAndroid/Com.Getkeepsafe.Relinker.dll" />
+    </files>
+</package>
